@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <section class="cabeçalho">
+           <h1>Formulário FormCodeCamp</h1>
+           <i><p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p></i>
+    
+        </section>
+    </header>
+    <form>
+        <div>
+            <label class="label1">Nome</label>
+            <input class="input1" type="text" name="nome" required>     
+        </div>
+        <div>
+            <label class="label1">Email</label>    
+            <input class="input1" type="text" name="email" required>
+        </div>
+        <div>
+            <label class="label1">Idade</label>
+            <input class="input1" type="number" name="number" max="100" min="10"/>
+        </div>
+        <div>
+            <p>Qual opção melhor descreve sua função atual?</p>
+            <select class="input1">
+                <option value="">selecione a função atual</option>
+                <option value="estudante">Estudante</option>
+                <option value="trabalho">Trabalho em tempo integral</option>
+                <option value="aprendiz">Aprendiz em tempo integral</option>
+                <option value="não">Prefiro não falar</option>
+                <option value="outro">Outro</option>
+
+            </select>
+        </div>
+        <div>
+            <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+            <label class="input2"><input class="radio" type="radio" name="botão" required>Definitivamente</label>
+            <label class="input2"><input class="radio" type="radio" name="botão" required>Pode ser</label>
+            <label class="input2"><input class="radio" type="radio" name="botão" required>Não tenho certeza</label>
+        </div>
+        <div>
+            <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+            <select class="input1">
+                <option value="">Selecione uma opção</option>
+                <option value="">Desafios</option>
+                <option value="">Projetos</option>
+                <option value="">Comunidade</option>
+                <option value="">Código aberto</option>
+
+
+            </select>
+        </div>
+        <div>
+            <p>O que você gostaria de ver melhorado?</p>
+            <label class="input2"><input type="checkbox" name="front-end" class="checkbox"/>Projetos front-end</label>
+            <label class="input2"><input type="checkbox" name="back-end" class="checkbox"/>Projetos back-end</label>
+            <label class="input2"><input type="checkbox" name="dados" class="checkbox"/>Visualização de dados</label>
+            <label class="input2"><input type="checkbox" name="desafios" class="checkbox"/>Desafios</label>
+            <label class="input2"><input type="checkbox" name="comunidade" class="checkbox"/>Comunidade de código aberto</label>
+            <label class="input2"><input type="checkbox" name="gitter" class="checkbox"/>Salas de ajuda do Gitter</label>
+            <label class="input2"><input type="checkbox" name="videos" class="checkbox"/>Videos</label>
+            <label class="input2"><input type="checkbox" name="encontros" class="checkbox"/>Encontros da Cidade</label>
+            <label class="input2"><input type="checkbox" name="wiki" class="checkbox"/>Wiki</label>
+            <label class="input2"><input type="checkbox" name="forum" class="checkbox"/>Forum</label>
+            <label class="input2"><input type="checkbox" name="cursos" class="checkbox"/>Cursos adicionais</label>
+        </div>
+        <div>
+            <p>Algum comentário ou sugestão?</p>
+            <textarea></textarea>
+        </div>
+        <div>
+            <input type="submit" name="Enviar" class="enviar"/>
+        </div>
+          
+    </form>
+</body>    
+    
+</html>
